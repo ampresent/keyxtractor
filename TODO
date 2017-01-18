@@ -1,0 +1,8 @@
+1. Replace the dummy clumsy Tokenizer.
+	Goals: "Sci-phi", "sci-phi", "White House"
+
+2. Try bigger corpus
+
+3. Customize ratio
+
+4. Bypass code regions
