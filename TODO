@@ -5,5 +5,7 @@
 
 3. Customize ratio
 
-4. Bypass code regions
+4. Bypass code regions [√]
 	Remember to eliminate before TF-IDF, because that counts in frequencies. (in pre labels)
+
+5. Support overall-text-range selection.

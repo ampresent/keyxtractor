@@ -7,7 +7,7 @@ $.fn.highlight = function(word) {
             if(this.nodeType === 3 && pattern.test(this.nodeValue)) {
                 $(this).replaceWith(this.nodeValue.replace(pattern, repl));
             }
-            else if(!$(this).hasClass('high')) {
+            else if(!$(this).hasClass('high') && this.tagName!='PRE') {
                 $(this).highlight(word);
             }
         });

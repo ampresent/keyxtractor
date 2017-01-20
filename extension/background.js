@@ -1,7 +1,7 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
 	chrome.tabs.executeScript(tab.ib, { file: 'jquery-3.1.1.min.js' }, function() {
 		chrome.tabs.executeScript(tab.id, {file: 'highlight.js'}, function() {
-			chrome.tabs.executeScript(tab.ib, {code: '$("div").children(":visible").text()'}, function(page){
+			chrome.tabs.executeScript(tab.ib, {code: '$("div").children(":visible").not($(":has(pre)")).not($("pre")).text()'}, function(page){
 				var xhr = new XMLHttpRequest();
 				xhr.open("POST", "http://localhost:27896/", true);
 				xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
