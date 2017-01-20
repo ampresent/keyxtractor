@@ -9,3 +9,7 @@
 	Remember to eliminate before TF-IDF, because that counts in frequencies. (in pre labels)
 
 5. Support overall-text-range selection.
+
+6. Balance between top and ratio
+
+7. Give BIG fonts heavior weight ! ( Like title ). Is that possible ?

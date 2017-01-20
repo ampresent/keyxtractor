@@ -18,7 +18,7 @@ class MyHTTPServer(BaseHTTPServer.BaseHTTPRequestHandler):
             self.send_header('Content-type', 'text/plain')
             self.end_headers()
 
-            response = keyxtractor.extract(query, ratio=0.05)
+            response = keyxtractor.extract(query, top=15)
             self.wfile.write('\n'.join(response))
         except:
             self.send_response(500)
