@@ -22,7 +22,10 @@ class Extractor(object):
                 keyid = sorted(self.tfidf[bow], key=itemgetter(1), reverse=True)[:top]
             logging.debug('keyid: '+str(keyid))
             logging.info('Retrieving keywords from ids.')
-            return [self.dic[i[0]] for i in keyid]
+            kws = [self.dic[i[0]] for i in keyid]
+            logging.debug('kws: {} ...'.format(kws))
+            return kws
+
         except Exception, e:
             logging.error('Failed to extract: {}\n\t{}...'.format(str(e), text[:50])) 
             return []

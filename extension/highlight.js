@@ -1,5 +1,5 @@
 $.fn.highlight = function(word) {
-    var pattern = new RegExp('[^a-zA-Z0-9]word[^a-zA-Z0-9]', 'g'),
+    var pattern = new RegExp('\\b'+word+'\\b', 'gi'),
         repl = '<span class="high">' + word + '</span>';
 
     this.each(function() {
