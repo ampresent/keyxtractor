@@ -8,7 +8,9 @@ daemon + chrome extension
 
 	server.py [PORT]
 
-Though chrome plugin does **not** support **port** change yet.
+Though chrome plugin does **not** support **port** customize yet.
+
+server.py can **only** run **native** for now.
 
 ## Chrome setup
 
@@ -25,7 +27,7 @@ Enable highlighter by click on the **Keyxtractor** button
 	tfidf_wiki.model	-	TF-IDF model
 	wiki.dic		-	Wiki token id-to-doc dictionary
 
-###Generate your own corpus out of wikipedia**
+###Generate your own corpus out of **wikipedia**
 	
 	train.py [wiki_dump_files] ...
 
