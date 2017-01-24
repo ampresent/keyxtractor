@@ -6,9 +6,9 @@ daemon + chrome extension
 
 ## Server
 
-	python extractor [PORT]
+	server.py [PORT]
 
-Though chrome plugin doesn't support **port** change yet.
+Though chrome plugin does **not** support **port** change yet.
 
 ## Chrome setup
 
@@ -25,12 +25,13 @@ Enable highlighter by click on the **Keyxtractor** button
 	tfidf_wiki.model	-	TF-IDF model
 	wiki.dic		-	Wiki token id-to-doc dictionary
 
-Corpus is created out of Wikipedia, customize as you wish. ( Corpus's code is a mess yet and not pushed. )
+###Generate your own corpus out of wikipedia**
+	
+	train.py [wiki_dump_files] ...
 
 ## Incomming Features!
 
-1. Customize corpus to gain better user experience
-2. Customize ratio of keywords to size
-3. Bypass blocks like **code**
-4. Better tokenizor, able to distinguish words like **sci-phi**, **White House**, etc.
-5. Customize highlight css
+1. Customize ratio of keywords to size ( For now, only 10 keywords are extracted , you can tune it in server.py for now)
+2. Better tokenizor, able to distinguish words like **sci-phi**, **White House**, etc.
+3. Customize highlight css
+4. Ready to deploy server side for **remote** server (rather than native for now)

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 import SocketServer
 import BaseHTTPServer
 import SimpleHTTPServer
