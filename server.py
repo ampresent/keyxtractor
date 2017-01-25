@@ -5,6 +5,7 @@ import SimpleHTTPServer
 import sys
 import extractor
 import logging
+import pdb
 
 keyxtractor = extractor.Extractor()
 

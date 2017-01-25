@@ -17,3 +17,7 @@
 8. Seems need to ignore failed ones. 
 	Case:
 	http://codegolf.stackexchange.com/questions/107454/dont-give-me-five
+
+9. Per paragraph extraction gives better accuracy. !!! (√)
+	Maybe I should paragraph in Front-end, or extract plain text from HTML in the Back-end.
+	Or keywords apply wrongly!
