@@ -4,6 +4,8 @@
 
 [English](README.md)
 
+![](Sample.png)
+
 基于**TF-IDF** 的关键字提取工具，外加一个chrome插件，旨在提供更佳的web页面阅读体验。
 
 服务端程序+chrome插件

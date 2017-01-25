@@ -4,6 +4,8 @@
 
 [English](README.md)
 
+![](Sample.png)
+
 **TF-IDF** based keyword extraction tool, together with a chrome extension, aiming at helping read web pages.
 
 server side + chrome extension
