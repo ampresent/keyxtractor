@@ -1,6 +1,8 @@
 #Keyxtractor (Key extractor)
 
-[CHINESE](README_zh.md "中文") [English](README.md "English")
+[中文](README_zh.md)
+
+[English](README.md)
 
 **TF-IDF** based keyword extraction tool, together with a chrome extension, aiming at helping read web pages.
 
@@ -46,8 +48,11 @@ Enable highlighter by click on the **Keyxtractor** button
 == 0.2 ==
 
 train.py included ( Now you can customize your own corpus! )
+
 ~~Finer readable region discrimination~~ ( Accuracy optimization )
+
 Whole word matching ( Accuracy optimization )
+
 Paragraphing ( Also accuracy optimization, by giving the context )
 
 ## Searching for help

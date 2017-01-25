@@ -1,6 +1,8 @@
 #Keyxtractor (关键字key和提取extractor)
 
-[CHINESE](README_zh.md "中文") [English](README.md "English")
+[中文](README_zh.md)
+
+[English](README.md)
 
 基于**TF-IDF** 的关键字提取工具，外加一个chrome插件，旨在提供更佳的web页面阅读体验。
 
@@ -42,8 +44,11 @@
 == 0.2 ==
 
 包含了train.py （现在你可以自定义语料库了）
+
 ~~更细粒度的可读区域检测~~ （优化精度）
+
 整词匹配 （优化精度）
+
 分段 （同样是优化精度，通过上下文信息限定）
 
 ## 寻找帮助
