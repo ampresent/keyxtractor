@@ -56,7 +56,3 @@ train.py included ( Now you can customize your own corpus! )
 Whole word matching ( Accuracy optimization )
 
 Paragraphing ( Also accuracy optimization, by giving the context )
-
-## Searching for help
-
-Too clumsy of me to handle front-end magic problems. Any help would mean a lot.
