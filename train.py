@@ -4,6 +4,7 @@ import itertools
 from gensim.utils import smart_open, simple_preprocess
 from gensim.corpora.wikicorpus import _extract_pages, filter_wiki
 from gensim.parsing.preprocessing import STOPWORDS
+import sys
 
 def tokenize(text):
     return [token for token in simple_preprocess(text) if token not in STOPWORDS]
