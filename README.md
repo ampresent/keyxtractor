@@ -41,9 +41,8 @@ Enable highlighter by click on the **Keyxtractor** button
 
 0. Better paragraphing ( density based algorithm, I suspect )
 1. Customizable ratio of keywords to size ( For now, only 10 keywords per paragraph are extracted, you can tune it in server.py for now)
-2. Better tokenizor ( able to distinguish words like **sci-phi**, **White House**, etc. )
-3. Customizable highlight css
-4. Ready-to-deploy server side for **remote** server (rather than native for now)
+2. Customizable highlight css
+3. Ready-to-deploy server side for **remote** server (rather than native for now)
 
 ## ChangeLog
 

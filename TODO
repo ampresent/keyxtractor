@@ -1,5 +1,6 @@
 1. Replace the dummy clumsy Tokenizer.
-	Goals: "Sci-phi", "sci-phi", "White House"
+	Goals: "Sci-phi", "sci-phi", [√]
+			  "White House" [x] Too slow when training
 
 2. Try bigger corpus
 

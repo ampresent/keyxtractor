@@ -1,7 +1,14 @@
 import gensim
-from gensim.utils import tokenize, smart_open
+from gensim.utils import smart_open, simple_preprocess
 import logging
 from operator import itemgetter
+from gensim.parsing.preprocessing import STOPWORDS
+import re
+
+gensim.utils.PAT_ALPHABETIC = re.compile('(((?![\d])[\w-])+)', re.UNICODE)
+
+def tokenize(text):
+    return [token for token in simple_preprocess(text) if token not in STOPWORDS]
 
 logging.getLogger().setLevel(logging.DEBUG)
 
